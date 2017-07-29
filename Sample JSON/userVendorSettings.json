@@ -1,0 +1,76 @@
+{
+	"_id" : "0009", //user vendor relation ID
+	"area_code" : "07307",
+	"userProfile_id" : "0031", //needs to be the vendors userProfile.JSON match
+	"preferred" : "true",
+	"vendor_details" : "We Rock Milk !!",
+	"vendor_business_desc" : "Details",	
+	"status" : "active",
+	"inactive_date" : "",
+	"service_quantity" : "3",
+    "service_time" : "Morning",
+    "default_service_cost_per_unit" : "12",
+	"CustomerDetails" : [ // Empty
+		{
+			"user_id" : "0001",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : "",       
+			"NumOccurrences" : "Not Specified",   
+			"RecurrenceType" : "Weekly" 
+			"service_cost_per_unit" : "10"
+		}, 
+		{
+			"user_id" : "0003",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : ISODate["2016-08-21"],       
+			"NumOccurrences" : "24",   
+			"RecurrenceType" : "Weekly"  
+		},
+		{
+			"user_id" : "0001",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : "",       
+			"NumOccurrences" : "Not Specified",   
+			"RecurrenceType" : "Weekly"  
+		}
+	]
+	
+}
+{
+	"_id" : "0009", //user vendor relation ID
+	"area_code" : "07307",
+	"userProfile_id" : "0031", //needs to be the vendors userProfile.JSON match
+	"preferred" : "true",
+	"vendor_details" : "We Rock flowers !!",
+	"vendor_business_desc" : "Details",	
+	"status" : "active",
+	"inactive_date" : "",
+	"service_quantity" : "3",
+    "service_time" : "Morning",
+    "default_service_cost_per_unit" : "12",
+	"CustomerDetails" : [ // Empty
+		{
+			"user_id" : "0001",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : "",       
+			"NumOccurrences" : "Not Specified",   
+			"RecurrenceType" : "Weekly" 
+			"service_cost_per_unit" : "10"
+		}, 
+		{
+			"user_id" : "0003",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : ISODate["2016-08-21"],       
+			"NumOccurrences" : "24",   
+			"RecurrenceType" : "Weekly"  
+		},
+		{
+			"user_id" : "0001",
+			"StartDate" : ISODate["2016-02-21"],       
+			"EndDate" : "",       
+			"NumOccurrences" : "Not Specified",   
+			"RecurrenceType" : "Weekly"  
+		}
+	]
+	
+}

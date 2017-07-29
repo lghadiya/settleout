@@ -1,0 +1,33 @@
+{
+	"_id" : "WERDFS23342232",
+	"customer_id" : "0001",
+	"vendor_id" : "0009",
+	"current_pending_due" : "200",
+	"transaction_details" : [
+		{
+			"date" : ISODate["2017-07-28"],
+			"service_unit" : "2",
+			"cost" : "20",
+			"approved" : "true"
+		},
+		{
+			"date" : ISODate["2017-07-29"],
+			"service_unit" : "2",
+			"cost" : "20",
+			"approved" : "false"
+		}
+	
+	],
+	"payment_history" : [
+		{
+			"date" : ISODate["2017-07-25"], 
+			"amount":"50",
+			"mode" : "cash"
+		},
+		{
+			"date" : ISODate["2017-07-29"], 
+			"amount" : "150",
+			"mode" : "cash"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"_id" : "0001", //User_id
+	"firstname" : "Lalitha",
+	"lastname" : "Ghadiyaram",
+	"Gender" : "F", //Options : "M", "F", "NA"
+	"DOB" : ISODate("1985-10-02"), // "DATE" or "NA"
+	"Address" : "XYXSSSS",
+	"location" :location["long", "lat"],
+	"email" : "x.y@g.com",
+	"Phone" : "+1201234778",
+	"QRCode" : "#$%#%@!@%$$",
+	"myVendorSettings" : ["0009", "0012", "0034"], 	//can be null/empty or non existent for initial entries	
+	"personalization" : {
+		"theme" : "Green",
+		"default_mode": "Customer" //Vendor/Customer
+	}
+},
+{
+	"_id" : "0002", //User_id
+	"firstname" : "Lalitha",
+	"lastname" : "Ghadiyaram",
+	"Gender" : "F", //Options : "M", "F", "NA"
+	"DOB" : ISODate("1985-10-02"), // "DATE" or "NA"
+	"Address" : "XYXSSSS",
+	"location" :location["long", "lat"],
+	"email" : "x.y@g.com",
+	"Phone" : "+1201234778",
+	"QRCode" : "#$%#%@!@%$$",
+	"myVendorSettings" : ["0009", "0012", "0034"], 	//can be null/empty or non existent for initial entries	
+	"personalization" : {
+		"theme" : "Green",
+		"default_mode": "Customer" //Vendor/Customer
+	}
+}	
+	
+	

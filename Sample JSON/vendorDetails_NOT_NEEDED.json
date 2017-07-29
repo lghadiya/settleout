@@ -1,0 +1,52 @@
+{
+	"_id" : "0012", //Vendor ID - same userProfile can have multiple ids
+	"userProfile_id" : "0031", //needs to be the vendors userProfile.JSON match
+	"businessId" : "0001", //businessID from business reference
+	"business_name" : "We Rock",
+	"business_Description" : "Details", 
+	"businessDetails" : {
+		[
+			{
+				"areacode" : "07307", // can be changed to polygon location
+				"status" : "active",
+				"inactive_date" : "",
+			},
+			{
+				"areacode" : "07310", // can be changed to polygon location
+				"status" : "active",
+				"inactive_date" : "",
+			},
+			{
+				"areacode" : "08040", // can be changed to polygon location
+				"status" : "inactive",
+				"inactive_date" : ISODate("2017-01-21"),
+			}
+		]
+	}
+}
+{
+	"_id" : "0013", //Vendor ID - same userProfile can have multiple ids
+	"userProfile_id" : "0031", //needs to be the vendors userProfile.JSON match
+	"businessId" : "0001", //businessID from business reference
+	"business_name" : "We Dont Rock",
+	"business_Description" : "Details", 
+	"businessDetails" : {
+		[
+			{
+				"areacode" : "07307", // can be changed to polygon location
+				"status" : "active",
+				"inactive_date" : "",
+			},
+			{
+				"areacode" : "07310", // can be changed to polygon location
+				"status" : "active",
+				"inactive_date" : "",
+			},
+			{
+				"areacode" : "08040", // can be changed to polygon location
+				"status" : "inactive",
+				"inactive_date" : ISODate("2017-01-21"),
+			}
+		]
+	}
+}
