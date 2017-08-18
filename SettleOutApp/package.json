@@ -1,0 +1,21 @@
+{
+  "name": "settleoutapp",
+  "version": "1.0.0",
+  "description": "Our App",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose": "^4.11.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
